@@ -16,5 +16,12 @@ namespace _6_mayo_2022
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 prom = new Form2();
+            prom.Show();
+        }
     }
 }
