@@ -23,5 +23,19 @@ namespace _6_mayo_2022
             Form2 prom = new Form2();
             prom.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 bits = new Form3();
+            bits.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 numeromayor = new Form4();
+            numeromayor.Show();
+        }
     }
 }
